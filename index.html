@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Rikesh</title>
+	
+</head>
+
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="app.min.css">
+
+<!-- font 1 -->
+<style> @import url('https://fonts.googleapis.com/css2?family=Ruge+Boogie&display=swap');</style> 
+
+<!-- font-2 -->
+<style> @import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Odor+Mean+Chey&family=Righteous&display=swap');</style> 
+
+<!-- font-3 -->
+<style> @import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');</style>
+
+<!-- animate -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+<!-- Link Swiper's CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+<!-- owl carosel -->
+<link rel="stylesheet" href="css/owlcarousel/owl.carousel.min.css">
+
+<link rel="stylesheet" href="css/owlcarousel/owl.theme.default.min.css">
+
+<!-- favicon image -->
+<link rel="icon" type="image/x-icon" href="image/favicon.svg">
+
+<body data-bs-spy="scroll" data-bs-target="#navbar">
+
+	<!-- nav -->
+<header class="w-2xl absolute z-10 w-full mx-auto lg:shadow-inherit shadow-md">
+    
+    <nav class="mx-6 py-2 wow animate__animated animate__slideInDown">
+    <div class="container mx-auto flex flex-wrap items-center justify-between 2xl:px-28 xl:px-12 lg:pt-2">
+        <a href="#" class="flex">
+       <p class="text-5xl lg:text-6xl" id="logo-font">rikesh</p>
+        </a>
+        <button data-collapse-toggle="mobile-menu" type="button" class="md:hidden ml-3 text-gray-400 hover:text-gray-900 focus:outline-none   rounded-lg inline-flex items-center justify-center" aria-controls="mobile-menu-2" aria-expanded="false">
+       
+        <figure>
+			<img src="image/Burger button.svg" alt="">
+		</figure>
+       
+        </button>
+        <div class="hidden md:block w-full md:w-auto" id="mobile-menu">
+        <ul class="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0  md:font-normal gap-4 mobile_nav">
+            <li>
+            <a href="#home" class="md:bg-transparent t lg:font-medium text-orange-500 block pl-3 pr-4 py-2 md:text-orange-500 md:p-0 lg:text-base rounded focus:outline-none" aria-current="page">Home</a>
+            </li>            
+            <li>
+            <a href="#about" class="text-gray-700 hover:bg-gray-50   md:hover:bg-transparent md:border-0 lg:font-medium  block pl-3 pr-4 py-2 md:hover:text-blue-700 md:p-0 lg:text-base">About</a>			
+            </li>
+			<li class="relative parent">
+                <a href="#work" class=" p-4 items-center md:hover:text-blue-700 space-x-2"><style>.icon-down::after{
+					content:url(image/down.svg); padding-left: 5px;}</style>
+                    <span class="icon-down">Works</span>
+                   
+                </a>
+                <ul class="child transition  duration-300 md:absolute top-full right-0 md:w-48  md:shadow-lg md:rounded-b ">
+                    <li>
+                        <a href="#work" class="flex px-4 py-3 hover:bg-orange-500 hover:text-white">
+                           illustration
+                        </a>
+                    </li>
+                    <li>
+                        <a href="figma.html" class="flex px-4 py-3 hover:bg-orange-500 hover:text-white">
+                            Figma Design
+                        </a>
+                    </li>
+                    <li>
+                        <a href="developed.html" class="flex px-4 py-3 hover:bg-orange-500 hover:text-white">
+                            Developed Site
+                        </a>
+                    </li>
+                </ul>
+            </li>
+			
+			           
+				<li>
+					<a href="#" id="contact" class="text-gray-700 hover:bg-gray-50 md:hover:bg-transparent md:border-0 lg:font-medium  block pl-3 pr-4 py-2 md:hover:text-blue-700 md:p-0 lg:text-base">Contact</a>			
+				</li>         
+				
+                       
+        </ul>
+        </div>
+    </div>
+    </nav>   
+</header>
+<!-- navbar ends -->
+
+<!-- modal -->
+<div id="box" class="modelbox fixed z-20 top-4 w-full px-8 text-slate-800   ">
+	<div class="relative" id="modal-box-height">
+		<img class="absolute sm:w-auto w-8 right-10 top-12 cursor-pointer ease-in-out duration-300  hover:origin-center hover:rotate-45 sm:rotate-0 rotate-45" id="close" src="image/cancel vector.svg">
+
+		<div class="flex ">
+
+			<div class="image 2xl:w-[58%] 2xl:pt-0  xl:block hidden">
+				<figure>
+					<img src="image/works/bb.jpg" alt="">
+				</figure>
+			</div>
+
+			<div class="pt-20 sm:pt-48 2xl:px-28 md:px-16 px-12 w-full">
+				<div class="pt-8">
+					<h1 class="lg:text-4xl md:text-4xl text-xl font-home">Contact me</h1>
+				<a href="mailto:rikeshsherpa1@gmail.com" class="pt-8 lg:text-6xl md:text-5xl text-xl font-home" id="rikesh">rikeshsherpa1@<span class="text-red-500">gmail</span>.com</a>
+				</div>
+	  
+				<div class="pt-24">
+					<header class="lg:text-4xl md:text-4xl text-xl font-home">Socials</header>
+					<ul class="text-5xl flex gap-6 pt-4">	  
+						<li class="text-white ">
+							<a href="https://www.instagram.com/_rikesh_sherpa/" target="_blank">
+								<img class="sm:w-8 w-6 cursor-pointer"  src="image/contacts/instagram 2.svg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="https://www.facebook.com/rikesh.sherpa.7/" target="_blank">
+								<img class="sm:w-8 w-6 cursor-pointer" src="image/contacts/facebook 1.svg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="https://www.behance.net/rikeshsherpa" target="_blank">
+								<img class="sm:w-8 w-6 cursor-pointer" src="image/contacts/behance 1.svg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="https://www.linkedin.com/in/rikesh-sherpa-4278a3223/" target="_blank">
+								<img class="sm:w-8 w-6 cursor-pointer" src="image/contacts/linkedin 2.svg" alt="">
+							</a>
+						</li>	  
+					</ul>
+				</div>
+			</div>
+		</div>  
+	</div>
+  
+  </div>
+  <!--modal  -->
+
+    <!-- go to top button -->
+	<div class="top-btn btn" id="btn-top">
+		<button  id="scroll-top" class="fixed bottom-7 lg:block hidden right-7  rounded-full w-12 h-12 shadow-xl hover:bg-white z-10">
+			<figure>
+				<img class="pl-2.5" src="image/icons8-up-24.png" alt="">
+			</figure>
+	
+		</button>
+	</div>	
+	<!-- go to top button ends -->
+
+<!-- home section -->
+<section class="relative" id="home">
+	<div class="container  mx-auto ">
+
+		<div class="content h-screen relative mobile shadow-md sm:hidden">
+			<figure class="">
+				<img class=" absolute wow animate__animated animate__fadeInUp bottom-0 home_image" src="image/home/portfolio.png" alt="">
+			</figure>			
+			<div class="slider pt-24">
+				<div class="swiper mySwiper">
+					<div class="swiper-wrapper">
+					  <div class="swiper-slide">
+							<div class="pt-16 coder relative">
+								<h1 class="text-5xl header">&#60<span class="text-red-600 hover:text-red-900 pointer" ><a href="developed.html">Developer</a></span>&#62</h1>
+								<p class=" w-64 font-light home_content text-lg py-8">Experience in Frontend development with bootstrap and tailwind as CSS framework and java script as scripting</p>
+								   <figure>
+									<img class="absolute" src="image/home/side arrow orange.svg" alt="">
+								   </figure>
+							</div>				
+							
+					  </div>
+					  <div class="swiper-slide">
+						<div class="pt-16 coder relative">
+							<h1 class="text-5xl header"><span class="text-orange-500  hover:text-red-900 pointer" >illustrator</span></h1>
+							<p class=" w-64 font-light home_content text-lg py-8">Experience in creating vector arts ,logo designs ,Banners and digital art</p>
+							   <figure>
+								<img class="absolute" src="image/home/side arrow orange.svg" alt="">
+							   </figure>							   
+						</div>
+					  </div>				  				  
+					</div>						
+				  </div>
+			</div>
+
+			
+		</div>
+
+		<div class="hidden relative sm:block shadow-sm desktop">
+			<div class="h-screen">				
+					<figure>
+						<img class="absolute bottom-0 wow animate__animated animate__fadeInUp" src="image/home/rik-01.svg" alt="">
+					</figure>
+					
+						<div id="padd" class="flex justify-between 2xl:px-16 pt-80 relative font-home md:px-6">
+
+							<div class="pl-8 home_text">
+					
+								<h1  class="text-7xl sm:text-6xl cursor-pointer pl-8 font-semibold  " >&#60<span class="text-red-600 hover:text-red-900 pointer" ><a href="developed.html">Developer</a></span>&#62</h1>
+								<p class="p-8 text-lg  font-normal tracking-wider" id="home-text">Experience in Frontend development with<br> bootstrap and tailwind as CSS framework<br> and java script as scripting</p>
+						   </div>
+					
+					
+						   <div class="pr-8">
+					
+							<a href="#work"><h1  class="text-7xl sm:text-6xl cursor-pointer pl-8 text-orange-500 hover:text-orange-700  font-semibold" >illustrator</h1></a>
+							<p class="p-8 text-lg font-normal tracking-wider" id="home-text">Experience in creating vector arts, <br>logo designs ,Banners and digital <br> art</p>
+					   </div>
+					
+					</div>
+					
+				
+				
+			</div>
+		</div>
+
+		<div>
+			<p class="text-9xl text-cyan-500 font-bold sm:blo hidden">this is not mobile and I am happy</p>
+		</div>
+	</div>
+</section>
+<!-- home section eds -->
+
+<!-- about section -->
+<section class="h-auto shadow-md " id="about">
+	<div class="container mx-auto">		
+			<div class="flex lg:justify-between flex-col xl:flex-row">
+				<div  class="xl:w-[60%] 2xl:pl-32 xl:pl-12  px-4 pt-20">
+				<title class="text-3xl lg:pb-12 pb-4 flex justify-center lg:justify-start about">About</title>				
+					<h2 class="text-4xl lg:text-5xl py-6  text-black about-txt">Hello,I am Rikesh , 
+						an illustrator and front end Developer 
+						with UI and UX experience</h2>
+				<div class=" text-2xl font-normal flex flex-col gap-6 pt-6 leading-10 about_detail">
+					<p class="">Growing up in nepal my vision as IT student has always been intresting and exciting.
+					I enjoy Designing and Developing arts, sites thats lives on internet.   
+					</p>
+						<p>My journey in this field started back in 2021 where first I grew intrest in illustrating then into web designing later. Fast forward to today I still enjoy developing and look forward to learn more new technology that helps in work   
+						</p>
+				</div>
+				</div>
+				<div class="image">
+					<figure class="pt-8">
+						<img class="relative wow animate__animated animate__fadeInUp 2xl:left-0 2xl:w-[120%] xl:w-full xl:left-10 lg:w-96 sm:float-right " src="image/about section/demo-2.png" alt="">
+					</figure>
+				</div>			
+		</div>
+	</div>
+</section>
+<!-- about section ends -->
+
+<!-- skills section -->
+<section class="h-auto pb-16 shadow-md sm:shadow-none" >
+	<div class="container mx-auto">
+		<div class="mx-2 pt-20 sm:hidden mobile">
+			<div>
+				<title class="text-3xl flex justify-center about underline">Skills/Services</title>
+			</div>
+
+			<div class="slider wow animate__animated animate__fadeInUp">
+				<div class="swiper mySwiper">
+					<div class="swiper-wrapper">
+					  <div class="swiper-slide">
+							<div>
+								<figure class="py-16 w-[80%] mx-auto">
+									<img src="image/skills/icons8-html-5.svg" alt="">
+								</figure>
+								<h3 class="about text-4xl font-semibold">HTML/CSS</h3>
+								<p class="w-[95%] mx-auto about_detail font-semibold text-xl py-8" >HTML and CSS. My first language that I learned years ago.it is the most basic language which I mostly use for my project								
+									</p>
+							</div>							
+					  </div>
+					 
+					  <div class="swiper-slide">
+						<div>
+							<figure class="py-16 w-[80%] mx-auto">
+								<img src="image/skills/icons8-wordpress-240.svg" alt="">
+							</figure>
+							<h3 class="about text-4xl font-semibold">Wordpress</h3>
+							<p class="w-[95%] mx-auto about_detail font-semibold text-xl py-8" >It runs in php language (backend).I can create simple sites using wordpress with knowledge of plugins ,field that I know								
+								</p>
+						</div>							
+				  </div>
+				  
+				  <div class="swiper-slide">
+					<div>
+						<figure class="py-16 w-[80%] mx-auto">
+							<img src="image/skills/icons8-figma.svg" alt="">
+						</figure>
+						<h3 class="about text-4xl font-semibold">Figma</h3>
+						<p class="w-[95%] mx-auto about_detail font-semibold text-xl py-8" >Figma is something I really enjoying working in. I design every site before developing and this software helps a lot figuring out the design							
+							</p>
+					</div>							
+			  </div>
+
+			  <div class="swiper-slide">
+				<div class="">
+					<figure class="py-16 w-[80%] mx-auto">
+						<img  src="image/skills/illustrator.png" alt="">
+					</figure>
+					<h3 class="about text-4xl font-semibold">illustrator</h3>
+					<p class="w-[95%] mx-auto about_detail font-semibold text-xl py-8" >My first step in IT field started from designing. and this software is what I used for the 1st time.I can create banners and logos and vector art with illustrator					
+						</p>
+				</div>							
+		  </div>
+
+		  <div class="swiper-slide">
+			<div>
+				<figure class="py-16 w-[80%] mx-auto">
+					<img src="image/skills/tail.svg" alt="">
+				</figure>
+				<h3 class="about text-4xl font-semibold">Tailwind</h3>
+				<p class="w-[95%] mx-auto about_detail font-semibold text-xl py-8" >Tailwind is CSS framework. Beside tailwind I can also develop site with Bootstrap. Since tailwind is more flexible I use tailwind for my project					
+					</p>
+			</div>							
+	  </div>
+					</div>						
+				  </div>
+			</div>
+		</div>
+
+		<div class="sm:block hidden desktop">
+			<div class="pt-4">
+				<center class="text-3xl py-20 about underline">Skills/Services</center>
+				<div class="">
+					<div>
+						<div class="flex justify-between 2xl:px-32 md:px-6">
+							<figure>
+								<img class="w-72 wow animate__animated animate__bounceInLeft py-8" src="image/skills/icons8-html-5.svg" alt="">
+							</figure>
+							<figcaption class="w-[25%] flex flex-col justify-center">
+								<div>
+									<h2 class="text-4xl font-semibold pb-6 about">HTML/CSS</h2>
+								<p class="text-xl about_detail tracking-wide ">HTML and CSS. My first language that I learned years ago.it is the most basic language which I mostly use for my project</p>
+								</div>
+							</figcaption>						
+						</div>
+						<div class="border-bot flex justify-end"></div>
+					</div>
+					
+					<div>
+						<div class="flex justify-between 2xl:px-32 md:px-6">
+							
+							<figcaption class="w-[25%] flex flex-col justify-center">
+								<div>
+									<h2 class="text-4xl font-semibold pb-6 about">Wordpress</h2>
+								<p class="text-xl about_detail tracking-wide">It runs in php language (backend).I can create simple sites using wordpress with knowledge of plugins ,field that I know</p>
+								</div>
+							</figcaption>	
+							<figure>
+								<img class="w-72 py-8 wow animate__animated animate__bounceInRight" src="image/skills/icons8-wordpress-240.svg" alt="">
+							</figure>					
+						</div>
+						<div class="border-bot 2xl:float-right lg:float-none"></div>
+					</div>
+
+					<div>
+						<div class="flex justify-between 2xl:px-32 md:px-6">
+							<figure>
+								<img class="w-72 py-8 wow animate__animated animate__bounceInLeft" src="image/skills/icons8-figma.svg" alt="">
+							</figure>
+							<figcaption class="w-[25%] flex flex-col justify-center">
+								<div>
+									<h2 class="text-4xl font-semibold pb-6 about">Figma</h2>
+								<p class="text-xl about_detail tracking-wide">Figma is something I really enjoying working in. I design every site before developing and this software helps a lot figuring out the design</p>
+								</div>
+							</figcaption>						
+						</div>
+						<div class="border-bot flex justify-end"></div>
+					</div>
+
+					<div>
+						<div class="flex justify-between 2xl:px-32 md:px-6">
+							
+							<figcaption class="w-[25%] flex flex-col justify-center">
+								<div>
+									<h2 class="text-4xl font-semibold pb-6 about">illustrator</h2>
+								<p class="text-xl about_detail tracking-wide">My first step in IT field started from designing. and this software is what I used for the 1st time.I can create banners and logos and vector art with illustrator</p>
+								</div>
+							</figcaption>	
+							<figure>
+								<img class="w-72 py-8 wow animate__animated animate__bounceInRight" src="image/skills/illustrator.png" alt="">
+							</figure>					
+						</div>
+						<div class="border-bot 2xl:float-right xl:float-none"></div>
+					</div>
+					
+					<div>
+						<div class="flex justify-between 2xl:px-32 md:px-6">
+							<figure>
+								<img class="w-72 py-8 wow animate__animated animate__bounceInLeft" src="image/skills/icons8-tailwind-css.svg" alt="">
+							</figure>
+							<figcaption class="w-[25%] flex flex-col justify-center">
+								<div>
+									<h2 class="text-4xl font-semibold pb-6 about">Tailwind</h2>
+								<p class="text-xl about_detail tracking-wide">Tailwind is CSS framework. Beside tailwind I can also develop site with Bootstrap. Since tailwind is more flexible I use tailwind for my project</p>
+								</div>
+							</figcaption>						
+						</div>
+						<div class="border-bot flex justify-end"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- skills section ends -->
+
+<!-- work section -->
+<section class="wprk section h-auto pb-16 pt-4" id="work">
+	<div class="container mx-auto">
+		<div class="mx-6 2xl:mx-20">
+			<div>				
+				<center class="about text-4xl xl:text-6xl xl:py-20 py-8 pt-20">Featured <br>Works</center>
+			</div>
+
+			<div class=" flex justify-around tab bg-white xl:px-80 xl:mb-20 mb-8 about_detail">
+				<button class="tablinks xl:text-2xl xl:font-semibold hover:bg-lime-600 hover:text-white px-2 transition ease-out delay-100" onclick="openCity(event, 'London')" id="defaultOpen">Arts</button>
+				<button class="tablinks xl:text-2xl xl:font-semibold hover:bg-lime-600 hover:text-white px-2 transition ease-out delay-100" onclick="openCity(event, 'Paris')">Figma</button>
+				<button class="tablinks xl:text-2xl xl:font-semibold hover:bg-lime-600 hover:text-white px-2 transition ease-out delay-100" onclick="openCity(event, 'Tokyo')">Developed</button>
+			  </div>
+			  
+			  <div id="London" class="tabcontent lg:mx-8">								
+				  <section class="py-8 ">
+					<div class="flex flex-wrap -mx-4 ">
+					  <div class="md:w-1/2 px-4 mb-8 md:mb-0  wow animate__animated animate__fadeIn art-radius work_img"><figure><img class="rounded-2xl" src="image/works/pp.jpg" alt=""></figure></div>
+					  <div class=" md:w-1/2 px-4 mb-8 md:mb-0 wow animate__animated animate__fadeIn art-radius work_img"><figure><img class="rounded-2xl" src="image/works/brown_dog.jpg" alt=""></figure></div>
+					</div>
+				  </section>							
+				  <section>
+					<div class="flex flex-wrap -mx-4">
+					  <div class=" md:w-1/3 px-4 mb-8 wow animate__animated animate__fadeIn art-radius work_img"><img class="rounded-2xl" src="image/works/panda2-01.jpg" alt=""></div>
+					  <div class="md:w-1/3 px-4 mb-8 wow animate__animated animate__fadeIn art-radius work_img"><img class="rounded-2xl" src="image/works/panda3-01.jpg" alt=""></div>
+					  <div class="md:w-1/3 px-4 mb-8 wow animate__animated animate__fadeIn art-radius work_img"><img class="rounded-2xl" src="image/works/panda4-01-01.jpg" alt=""></div>
+					  <div class="md:w-1/3 px-4 mb-8 wow animate__animated animate__fadeIn art-radius work_img"><img class="rounded-2xl" src="image/works/srijal2-01-01.jpg" alt=""></div>
+					  <div class="md:w-1/3 px-4 mb-8 wow animate__animated animate__fadeIn art-radius work_img"><img class="rounded-2xl" src="image/works/panda1-01.jpg" alt=""></div>
+					  <div class="md:w-1/3 px-4 mb-8 wow animate__animated animate__fadeIn art-radius work_img"><img class="rounded-2xl" src="image/works/sriajl-01.jpg" alt=""></div>
+					</div>
+				  </section>	
+				  
+				  <div class="flex flex-col lg:flex-row lg:h-auto h-96  lg:justify-around  justify-between select_area py-14 mt-28">
+					<div class=" mx-auto relative transition ease-in-out delay-120 hover:-translate-y-1 hover:scale-110">
+						<a href="figma.html">
+							<button class="bg-white overflow-hidden h-20 lg:px-14 px-2 border-4 rounded-3xl border-black  text-xl py-6 text-black font-home" id="figma_btn">
+								<p class="relative z-50">View Figma Projects</p>
+								<div class="hidden relative bottom-28 z-40" id="figma_img">
+									<figure class="figma_img">
+										<img class="" src="image/skills/icons8-figma.svg" alt="">
+									</figure>
+								</div>
+							</button>
+						</a>
+					</div>
+					
+					<div class=" mx-auto relative transition ease-in-out delay-120 hover:-translate-y-1 hover:scale-110">
+						<a href="developed.html"><button class="bg-white overflow-hidden h-20 lg:px-14 px-2 border-4 rounded-3xl border-black  text-xl py-6 text-black font-home" id="html_btn">
+							<p class="relative z-50">View Developed Projects</p>
+							<div class="hidden relative bottom-28 z-40" id="html_img">
+								<figure class="figma_img">
+									<img class="" src="image/skills/icons8-html-5.svg" alt="">
+								</figure>
+							</div>
+						</button></a>
+					</div>
+
+				  </div>
+			  </div>
+
+			  <div id="Paris" class="tabcontent lg:mx-8">
+				<div class="figma">
+					<div class="owl-carousel basic-carousel owl-theme">						
+						<div class="item  border-2 lg:border-4 border-black"><img  src="image/figma ss/Group 28.jpg" alt=""></div>
+						<div class="item  border-2 lg:border-4 border-black"><img  src="image/figma ss/Group 29.jpg" alt=""></div>
+						<div class="item  border-2 lg:border-4 border-black"><img  src="image/figma ss/Frame 49.png" alt=""></div>												
+					</div>
+
+					<div class="pt-16">
+						<h2 class="text-5xl font-semibold about">Design</h2>
+					<p class="text-xl lg:w-[50%] py-12 about_detail tracking-wide">This project is an idea for the portfolio of web company.I used all the color combination and design to make it look more modern .there is more about this project. I designed all the pages for this site. You can view the project in detail</p>
+
+					<button type="button" data-modal-toggle="crypto-modal-1" class=" px-4 bg-purple-700 hover:bg-purple-900 text-white
+						shadow-md w-[50%] py-4 lg:w-auto rounded-2xl">View Project</button>
+					
+					<!-- modal -->
+					<div id="crypto-modal-1" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 w-full md:inset-0 h-modal md:h-full justify-center items-center">
+						<div class="relative p-4 w-full h-full md:h-auto">
+							<!-- Modal content -->
+							<div class="relative bg-white rounded-lg  shadow dark:bg-black flex">
+								<button type="button" class="absolute top-4 right-12 text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-800 dark:hover:text-white" data-modal-toggle="crypto-modal-1">
+								   <div class="bg-white hover:border-grey-white p-2 rounded-lg">
+									  <svg aria-hidden="true" class="w-5 h-5" fill="black" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>  
+								   </div>
+									
+								</button>
+								<!-- Modal header -->
+								<div class=" lg:block hidden py-4 px-6 rounded-t border-b dark:border-gray-600">
+									<h3 class="text-base font-semibold text-gray-900 lg:text-xl dark:text-white">
+										Figma Design 
+									</h3>
+								</div>
+								<!-- Modal body -->
+								<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="1200" height="700" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FU0sO21ElqLs5atE6sJT2RD%2FAll-pages%3Fnode-id%3D0%253A1" allowfullscreen></iframe>
+							</div>
+						</div>
+					</div>
+
+					<a href="figma.html"><button class="mt-14 mx-8 px-4 bg-purple-700 hover:bg-purple-900 text-white
+						shadow-md w-[50%] py-4 lg:w-auto rounded-2xl">View All Project</button></a>
+					</div>
+					
+					
+				</div>					
+			  </div>
+
+			  <div id="Tokyo" class="tabcontent lg:mx-8">	
+						
+				<div class="pb-32 wow animate__animated animate__fadeInUp">
+					<div class="owl-carousel nonloop owl-theme">
+						<div class="item-1">
+							<figure>
+								<img class="" src="image/developed/supreme 1.svg" alt="">
+							</figure>
+						</div>
+												
+						<div class="item-1">
+							<figure>
+								<img class="w-96" src="image/developed/supreme 2.svg" alt="">
+							</figure>
+						</div>
+						<div class="item-1">
+							<figure>
+								<img class="w-96" src="image/developed/sat 3.svg" alt="">
+							</figure>
+						</div>
+						<div class="item-1 mob">
+							<figure>
+								<img class="w-96" src="image/developed/mob sat.svg" alt="">
+							</figure>
+						</div>		
+					</div>
+					<div class="pt-4">
+						<h2 class="lg:text-5xl text-4xl font-semibold about">Supreme associates traders</h2>
+					<p class="text-lg lg:text-xl lg:w-[50%] py-8 lg:py-12 about_detail">This is Dyanamic project where I contributed in all front end designs, banners and some parts of backend.I used normal HTML and CSS for this project.
+						
+					</p>
+					<button class=" lg:px-4 bg-purple-700 hover:bg-purple-900 text-white
+						shadow-md w-[50%] py-4 lg:w-auto rounded-2xl"><a href="developed.html" target="_blank">View All project</a></button>
+					</div>
+				</div>	
+
+					
+			  </div>
+
+		</div>
+	</div>
+</section>
+<!-- work section ends -->
+
+<!-- footer section -->
+<section class="h-auto footer">
+	<div class=" mx-auto">
+		<div class="pt-20">
+			<div class="relative">
+				<div class="flex justify-center">
+					<div class="bg-white rounded-xl z-10 text-black lg:flex lg:flex-row flex flex-col justify-around w-[80%] lg:py-20 py-10 white_background px-6 gap-6 shadow-lg">
+						<p class="text-5xl lg:text-4xl font-semibold about_detail ">Start a <br class="block sm:hidden">project</p>
+						<p class="about_detail font-semibold text-lg lg:w-[40%]">Contact me for the project and we'll get started</p>
+						<button class=" px-4 hover:bg-purple-900 wow animate__animated animate__swing text-white
+						shadow-md w-[50%] py-4 lg:w-auto rounded-2xl"><a href = "mailto:rikeshsherpa1@gmail.com">Contact me</a></button>
+					</div>
+				</div>
+				<div class="absolute top-48 sm:top-32 footer-bg  border-top h-60 w-full">					
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- footer ends -->
+
+<!-- js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="app.js"></script>
+
+ <script>
+       new WOW().init();
+</script>
+<script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
+
+</body>
+</html>
